@@ -42,7 +42,7 @@ A lightweight analytics dashboard for the Stellar ecosystem. Monitor Stellar net
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/stellarscope.git
+git clone https://github.com/johnsaviour56-ship-it/stellarscope.git
 cd stellarscope
 
 # Install dependencies
