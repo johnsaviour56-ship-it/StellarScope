@@ -136,20 +136,24 @@ npm run build
 
 ## 🚀 Deploy When Ready
 
-### One-Time Setup
-1. Sign up at https://vercel.com
-2. Install Vercel CLI: `npm i -g vercel`
+### Production Build
 
-### Deploy
 ```bash
-vercel --prod
+npm run build
+npm start
 ```
 
-### Updates
-- Every git push → Auto-deploys
-- Preview deployments for PRs
+### Hosting Options
 
-See `docs/deployment.md` for details.
+Choose your preferred platform:
+- **Docker** - Universal containerization
+- **AWS EC2** - Scalable cloud hosting
+- **DigitalOcean** - Simple and affordable
+- **Railway** - Git-based deployment
+- **Render** - Free tier available
+- **Self-hosted** - Any VPS with Node.js
+
+See `docs/deployment.md` for step-by-step guides for each platform.
 
 ---
 

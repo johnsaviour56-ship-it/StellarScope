@@ -134,7 +134,11 @@ Open http://localhost:3000
 
 ### Step 6: Deploy (10 minutes)
 ```bash
-vercel --prod
+npm run build
+npm start
+
+# Choose your hosting platform
+# See docs/deployment.md for options
 ```
 
 ---
@@ -188,7 +192,7 @@ vercel --prod
 | Styling | Tailwind CSS | 3.3.6 |
 | Charts | Recharts | 2.10.3 |
 | Runtime | Node.js | 18+ |
-| Deployment | Vercel | Latest |
+| Deployment | Any Node.js Host | Docker, AWS, DigitalOcean, Railway, Render, VPS |
 
 **5 production dependencies** - minimal and focused!
 

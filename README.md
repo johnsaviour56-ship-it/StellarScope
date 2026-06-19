@@ -29,8 +29,8 @@ A lightweight analytics dashboard for the Stellar ecosystem. Monitor Stellar net
 - **Frontend**: Next.js 15 (App Router), React 19, TypeScript
 - **Styling**: Tailwind CSS
 - **Charts**: Recharts
-- **Deployment**: Vercel
 - **Data Sources**: Stellar Horizon API, Soroban RPC
+- **Server**: Node.js (Express compatible)
 
 ## Quick Start
 
@@ -139,29 +139,37 @@ stellarscope/
 
 ## Deployment
 
-### Deploy to Vercel
+StellarScope can be deployed to any Node.js hosting platform:
 
-The easiest way to deploy StellarScope is with [Vercel](https://vercel.com):
+### Production Build
 
 ```bash
-# Install Vercel CLI
-npm i -g vercel
-
-# Deploy
-vercel
+npm run build
+npm start
 ```
 
-Or use the [Vercel GitHub Integration](https://vercel.com/docs/concepts/git).
-
-See [docs/deployment.md](./docs/deployment.md) for detailed instructions.
+The app runs on `http://localhost:3000` by default.
 
 ### Environment Variables for Production
 
-Add to your Vercel project settings:
-```
+Create a `.env.production` file:
+```env
 NEXT_PUBLIC_HORIZON_URL=https://horizon.stellar.org
 NEXT_PUBLIC_SOROBAN_RPC_URL=https://soroban-testnet.stellar.org
+NODE_ENV=production
 ```
+
+### Hosting Options
+
+- **Docker**: Containerize with a Dockerfile
+- **AWS**: Deploy to EC2, Elastic Beanstalk, or App Runner
+- **DigitalOcean**: Deploy to App Platform or Droplets
+- **Railway**: Simple Git-based deployment
+- **Render**: Free tier available
+- **Self-hosted**: Any server with Node.js 18+
+- **Custom Infrastructure**: Standard Next.js app
+
+For detailed deployment instructions, see [docs/deployment.md](./docs/deployment.md).
 
 ## Development Roadmap
 

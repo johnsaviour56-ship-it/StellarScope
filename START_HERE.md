@@ -211,21 +211,19 @@ See `QUICK_REFERENCE.md` for a complete reference.
 
 ---
 
-## 🚀 Deploy in 5 Minutes
+## 🚀 Deploy in Minutes
 
-When you're ready to share with the world:
+When you're ready to deploy to production:
 
-```bash
-# Install Vercel CLI
-npm i -g vercel
+See [`docs/deployment.md`](./docs/deployment.md) for:
+- Docker deployment
+- AWS EC2 setup
+- DigitalOcean App Platform
+- Railway deployment
+- Render deployment
+- Self-hosted VPS options
 
-# Deploy (Vercel handles everything)
-vercel --prod
-```
-
-Your app will be live at a Vercel URL!
-
-See `docs/deployment.md` for detailed instructions.
+Choose the platform that works best for you!
 
 ---
 

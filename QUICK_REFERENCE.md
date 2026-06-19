@@ -165,14 +165,15 @@ NEXT_PUBLIC_SOROBAN_RPC_URL=https://soroban-testnet.stellar.org
 ## 🚀 Deploy in 3 Steps
 
 ```bash
-# 1. Connect to Vercel
-vercel
+# 1. Build for production
+npm run build
 
-# 2. Add environment variables in Vercel dashboard
-NEXT_PUBLIC_HORIZON_URL=https://horizon.stellar.org
-NEXT_PUBLIC_SOROBAN_RPC_URL=https://soroban-testnet.stellar.org
+# 2. Start production server
+npm start
 
-# 3. Done! Every git push deploys automatically
+# 3. Choose hosting platform
+# See docs/deployment.md for:
+# Docker, AWS, DigitalOcean, Railway, Render, VPS
 ```
 
 ---

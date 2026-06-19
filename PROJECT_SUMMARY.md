@@ -118,7 +118,7 @@ Browser → Next.js Server Components → Stellar APIs → Dashboard
 | **Runtime** | Node.js 18+ | Standard for Next.js |
 | **Database** | None (MVP) | Fetch live data only |
 | **State** | Server Components | No client-side state complexity |
-| **Deployment** | Vercel | Native Next.js support |
+| **Deployment** | Any Node.js host | Docker, AWS, DigitalOcean, Railway, etc. |
 
 ---
 
